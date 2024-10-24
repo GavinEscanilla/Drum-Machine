@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+#root{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100vh;
+    h1{
+        color: blue;
+        margin: 0;
+    }
+    #drum-machine{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 80%;
+        background-color: gray;
+        
+ #display{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    button{
+        width: 100px;
+        height: 100px;
+    }
+    }
+}
+}
+}
