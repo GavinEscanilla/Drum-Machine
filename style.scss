@@ -26,13 +26,18 @@ body{
         
  #display{
     border: 1px solid black;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 340px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    .drum-pad{
+        padding: 0;
+        width: 100px;
+        height: 100px;
+    }
     button{
         width: 100px;
         height: 100px;
